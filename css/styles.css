@@ -40,6 +40,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #maincontent {
   background-color: #f3f3f3;
   min-height: 100%;
+  min-width: 320px;
 }
 #footer {
   background-color: #444;
@@ -285,7 +286,15 @@ nav h1 a {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-
+  nav h1 a {
+    font-size: 13px;
+  }
+  #restaurants-list li h1 {
+    font-size: 16px;
+  }
+  .filter-options {
+    height: 150px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
