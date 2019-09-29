@@ -286,6 +286,20 @@ nav h1 a {
 #reviews-list li .header-container {
   display: flex;
   justify-content: space-between;
+  background: #ccc;
+
+  margin-top: -20px;
+  margin-left: -20px;
+  padding: 10px 20px 0px;
+  margin-right: -20px;
+  margin-bottom: 10px;
+}
+
+#reviews-list li .rating {
+  background: rgba(255, 166, 0, 0.342);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 #restaurant-hours td {
