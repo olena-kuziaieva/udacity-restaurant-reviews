@@ -158,7 +158,6 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
   min-width: 100%;
   border-top-left-radius: 35px;
   border-bottom-right-radius: 35px;
@@ -348,20 +347,10 @@ nav h1 a {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+  #restaurants-list li {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    width: calc(50% - 15px);
+  }
 }
